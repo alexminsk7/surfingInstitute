@@ -1,0 +1,141 @@
+@media screen and (min-width: 620px) {
+	.nav__container {
+		padding-top: 50px;
+		justify-content: space-between; 
+		margin-bottom: 100px;
+	}
+	.nav {
+		display:  block;
+	}
+	.header__content {
+		padding-top: 160px;
+	}
+	.video {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.video__item {
+		margin-right: 20px;
+	}
+	.video__item:last-child {
+		margin-right: 0;
+	}
+	.reviews {
+		flex-direction: row;
+	}
+	.reviews__item {
+		margin-right: 30px;
+	}
+	.footer__container {
+		flex-direction: row;
+		text-align: left;
+		align-items: flex-end;
+	}
+	.footer__copyright {
+		margin-bottom: 0px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.nav__container {
+		margin-bottom: 220px;	
+	}
+	.header__content {
+		padding-top: 210px;
+	}
+	.header__title {
+		font-size: 60px;
+	}
+	.footer__title {
+		font-size: 50px;
+		margin-bottom: 70px;
+	}
+}
+@media screen and (min-width: 912px) {
+	.instructor {
+		margin-bottom: 0px;
+	}
+	.instructor__wrapper {
+		flex-direction: row;
+	}
+	.instructor__name {
+		font-size: 30px;
+	}
+	.main__title {
+		font-size: 50px;
+		margin-bottom: 85px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.block__item {
+		flex-direction: row;
+		margin-bottom: 190px;
+	}
+	.block__item-header {
+		font-size: 40px;
+	}
+	.block__item-content {
+		width: 450px;
+	}
+	.block__item-descr {
+		margin-bottom: 35px;
+	}
+	.block__item:last-child {
+		margin-bottom: 250px;
+	}
+	.block__item:nth-child(odd) {
+		flex-direction: row-reverse;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.nav__container {
+		width: 1200px;
+		padding-top: 92px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.header__container {
+		width: 1200px;
+		margin-bottom: 170px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.header__title {
+		font-size: 70px;
+	}
+	.header__content {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+	.video {
+		width: 280px;
+	}
+	.video__item {
+		margin-right: 0;
+	}
+	.video__center {
+		order: 0;
+		margin-bottom: 0px;
+	}
+	.video__title {
+		text-align: left;
+	}
+	.reviews {
+		order: 0;
+		width: 260px;
+	}
+	.reviews__item {
+		margin-right: 0;
+	}
+	.reviews__title {
+		text-align: left;
+	}
+	.instructor__wrapper {
+		margin-bottom: 240px;
+	}
+	.footer__container {
+	width: 1180px;
+	display: flex; 
+	justify-content: space-between; 
+}
+}
